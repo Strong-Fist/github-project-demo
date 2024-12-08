@@ -25,13 +25,6 @@ app.get('/', (req, res) => {
   `);
 } );
 
-app.git("/hello", (req, res)=>{
-  res.send(
-    "<h1> Hello Word </h1>" 
-  );
-});
-
-
 http.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
